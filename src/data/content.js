@@ -76,6 +76,7 @@ export const projects = [
     name: 'Async REST API with FastAPI & MongoDB',
     description:
       'A fully asynchronous backend API built with FastAPI and Motor (async MongoDB driver). Features CRUD operations, request validation via Pydantic, custom error handling, and automatic OpenAPI documentation. Designed with clean architecture principles.',
+    deployedLink: 'https://example.com/projects/async-rest-api',
     tags: [
       { label: 'FastAPI', highlight: true },
       { label: 'MongoDB', highlight: true },
@@ -90,6 +91,7 @@ export const projects = [
     name: 'Web Scraper & Data Extractor',
     description:
       'A targeted web scraper built with Requests and BeautifulSoup that extracts, cleans, and structures data from multiple pages. Handles pagination, error retries, and exports structured output. Demonstrates real-world data engineering thinking.',
+    deployedLink: 'https://example.com/projects/web-scraper',
     tags: [
       { label: 'BeautifulSoup', highlight: true },
       { label: 'Requests', highlight: true },
@@ -103,6 +105,7 @@ export const projects = [
     name: 'File Automation Utility',
     description:
       "A command-line utility for automating file organization, batch renaming, and directory management using Python's os module. Uses decorators for logging, timing, and error wrapping — demonstrating clean, production-style patterns.",
+    deployedLink: 'https://example.com/projects/file-automation',
     tags: [
       { label: 'OS Module', highlight: true },
       { label: 'Decorators', highlight: true },
@@ -147,7 +150,7 @@ export const journey = [
 ];
 
 export const contactLinks = [
-  { label: 'Email', value: 'aayanahmedtejani@gmail.com', href: 'mailto:aayanahmedtejani@gmail.com' },
-  { label: 'GitHub', value: 'github.com/aayan-ahmed-17', href: 'https://github.com/aayan-ahmed-17' },
-  { label: 'LinkedIn', value: 'linkedin.com/in/aayan-ahmed-tejani/', href: 'https://www.linkedin.com/in/aayan-ahmed-tejani/' },
+  { label: 'Email', value: 'your@email.com', href: 'mailto:your@email.com' },
+  { label: 'GitHub', value: 'github.com/yourusername', href: 'https://github.com/yourusername' },
+  { label: 'LinkedIn', value: 'linkedin.com/in/yourusername', href: 'https://linkedin.com/in/yourusername' },
 ];

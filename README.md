@@ -1,10 +1,6 @@
 # portfolio2
 
-<<<<<<< HEAD
-React + Vite version of the same portfolio UI/content.
-=======
 React + Vite portfolio with the same UI/content, now refactored into reusable components and data-driven sections.
->>>>>>> uzlgpw-codex/update-tech-stack-to-react-or-next
 
 ## Run locally
 
@@ -12,8 +8,6 @@ React + Vite portfolio with the same UI/content, now refactored into reusable co
 npm install
 npm run dev
 ```
-<<<<<<< HEAD
-=======
 
 ## Structure
 
@@ -21,4 +15,3 @@ npm run dev
 - `src/components/sections`: one component per nav section
 - `src/data/content.js`: editable arrays/objects for skills, projects, journey, and links
 - `src/hooks/useRevealAnimation.js`: scroll reveal behavior
->>>>>>> uzlgpw-codex/update-tech-stack-to-react-or-next

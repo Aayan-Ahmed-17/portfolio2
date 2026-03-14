@@ -439,6 +439,47 @@
     gap: 8px;
   }
 
+  .project-live-link {
+    margin-top: 22px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border: 1px solid var(--accent);
+    background: #7fff6e10;
+    color: var(--accent);
+    font-family: 'DM Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+    opacity: 0;
+    transform: translateY(8px);
+    transition: all 0.25s ease;
+    pointer-events: none;
+  }
+
+  .project-live-link:visited {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: #7fff6e10;
+  }
+
+  .project-card:hover .project-live-link,
+  .project-card:focus-within .project-live-link {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .project-live-link:hover,
+  .project-live-link:focus-visible {
+    background: var(--accent);
+    color: #0a0a0f;
+    outline: none;
+  }
+
   .tag {
     padding: 4px 12px;
     border: 1px solid var(--border-bright);
@@ -641,6 +682,7 @@
     .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
     .skills-grid { grid-template-columns: 1fr 1fr; }
     .project-card { grid-template-columns: 1fr; }
+    .project-live-link { opacity: 1; transform: translateY(0); pointer-events: auto; }
     .nav-links { display: none; }
     .status-badge { display: none; }
     .hero-name { font-size: 3rem; }
